@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	background: #89B1BD;
 }
@@ -97,3 +98,46 @@ p{
 
 }
 
+=======
+body{
+	
+}
+
+
+.title{
+	color: black;
+	font-size: 34px;
+	text-align: center;
+	border: 2px solid black ;
+}
+
+.about{
+	text-align: left;
+	color: #85D9C0;
+}
+
+.who{
+	text-align: center;
+	color: #85D9C0;
+    margin-top: -60px;
+
+
+}
+
+.youtube{
+	text-align: right;
+	color: #85D9C0;
+	}
+
+h1{
+	text-align: center;
+	color: #DBED81;
+}
+
+p{
+	font-size: 24px;
+	text-align:center;
+	border: 3px solid black;
+	color: #FAA255;
+}
+>>>>>>> 46bd905bf1dbc351b464a728d72176f9e6ae8115
