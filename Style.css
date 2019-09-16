@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a279c1ac47960cc0f4ed64b25ea12f34ce15a400
 body{
 	background: #89B1BD;
 }
@@ -14,33 +9,6 @@ body{
 	text-align: center;
 	border: 2px solid white ;
 }
-
-.about{
-	text-align: left;
-	color: #85D9C0;
-	font-size:24px;
-}
-
-.who{
-	text-align: center;
-	color: #85D9C0;
-    margin-top: -60px;
-    font-size:24px;
-
-
-}
-
-.youtube{
-	text-align: right;
-	color: #85D9C0;
-	font-size:24px;
-	}
-
-h1{
-	text-align: center;
-	color: #DBED81;
-}
-
 
 p{
 	font-size: 98px;
@@ -118,4 +86,24 @@ p{
   top: 1100px;;
 
 }
+
+.button5 {
+  background-color: #4AAECD;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 495px;
+  top: 1300px;;
+
+}
+
+
+
 
