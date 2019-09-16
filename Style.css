@@ -98,46 +98,20 @@ p{
 
 }
 
-=======
-body{
-	
-}
-
-
-.title{
-	color: black;
-	font-size: 34px;
-	text-align: center;
-	border: 2px solid black ;
-}
-
-.about{
-	text-align: left;
-	color: #85D9C0;
-}
-
-.who{
-	text-align: center;
-	color: #85D9C0;
-    margin-top: -60px;
-
+.button4 {
+  background-color: #4AAECD;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 495px;
+  top: 1100px;;
 
 }
 
-.youtube{
-	text-align: right;
-	color: #85D9C0;
-	}
-
-h1{
-	text-align: center;
-	color: #DBED81;
-}
-
-p{
-	font-size: 24px;
-	text-align:center;
-	border: 3px solid black;
-	color: #FAA255;
-}
->>>>>>> 46bd905bf1dbc351b464a728d72176f9e6ae8115
