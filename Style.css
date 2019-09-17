@@ -105,34 +105,38 @@ p{
 }
 
 .navagation1{
+	font-color:#E5E2E2;
 	text-align: center;
 	position: absolute;
-	left: 495px;
-	top: 5px;
+	left: 1000px;
+	top: -10px;
 }
 
 
 .navagation2{
+	font-color:#E5E2E2;
 	text-align: center;
 	position: absolute;
-	left: 495px;
-	top: 10px;
+	left: 100px;
+	top: -10px;
 }
 
 
 .navagation3{
+	font-color:#E5E2E2;
 	text-align: center;
 	position: absolute;
-	left: 495px;
-	top: 15px;
+	left: 300px;
+	top: -10px;
 }
 
 
 .navagation4{
+	font-color:#E5E2E2;
 	text-align: center;
 	position: absolute;
-	left: 600px;
-	top: 100px;
-} 
+	left: 800px;
+	top: -10px;
+}
 
 
