@@ -20,6 +20,7 @@ p{
 
 h1{
 	font-size: 50px;
+	color: white;
 }
 
 .button1 {
@@ -150,3 +151,8 @@ h1{
 	top: -10px;
 }
 
+img{
+	position: absolute;
+	right: 400px;
+	top: 100px;
+}
