@@ -156,3 +156,39 @@ img{
 	right: 400px;
 	top: 100px;
 }
+
+.pp{
+  color: blue;
+}
+
+.p{
+  position: absolute;
+}
+
+.buttongroup button {
+  background-color: blue; /* Green background */
+  border: 1px solid white; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  display:inline-block;
+  text-align: center;
+  
+}
+
+.buttongroup button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.buttongroup:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.buttongroup button:hover {
+  background-color: #3e8e41;
+}
