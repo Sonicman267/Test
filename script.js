@@ -70,7 +70,8 @@ function givemeayear(){
 }
 
 function counting(){
-	for(let i = 1; i < 101; i++){
+	var i;
+	for(i = 1; i < 101; i++){
 		if(i % 4 == 0 && i % 10 == 0){
 			console.log("FourTen");
 		}
