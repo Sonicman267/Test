@@ -1,13 +1,8 @@
 function guessnum(){
 	var num = Math.floor(Math.random() * 10);;
 	console.log(num);
-    var guess;
-
-    
-     if (guess == num){
-    	alert("Thats it");
-    }
-
+	var guess;
+	
     while(guess != num){
 
     	guess = prompt("Guess the number between 0 & 10");
@@ -63,10 +58,7 @@ function givemeayear(){
 	console.log(century);
 
 	alert("That year is in the " + Math.floor(century) + " century");
-
-
-
-	
+	return century;
 }
 
 function counting(){
@@ -88,7 +80,75 @@ function counting(){
 
 }
 
+function Confused(){
+	var con;
+	var no = "no";
 
-    	
+	while(con != no){
+		con = prompt("Are you still confused");
+		
+		if(con == null){
+			return;
+		}
+		else if(con == no){
+			alert("Great your not confused anymore");
+		}
+		else{
+			alert(con);
+		}
+	}
+}
+
+function words(){
+	var words = ["apples", "chips", "soap", "soup", "thursday"];
+	var longestWord = 0;
+
+	for(let i = 0; i < words.length; i++){
+		if(words[i].length > longestWord){
+			longestWord = words[i].toString;
+		}
+		console.log(string(longestWord));
+	}
+	
+}
+
+function temp(celcius){
+	var temp = ["30", "50", "70"]; 
+
+	alert(temp);
+
+	for(let i = 0; i < temp.length; i++){
+	 console.log(temp[i] - 32 * 5 / 9);
+	}
+}
+
+function string(){
+	var str = "Soup";
+	console.log(str.length);
+}
+
+function login(user, pass){
+	var user = "AIDEN";
+	var pass = "SOUP";
+	
+	var input1 = prompt("Enter a password");
+	var input2 = prompt("Enter a password");
+
+	if(input1 == user){
+		alert(input1.toLowerCase());
+		
+	}
+	
+	 if(input2 == pass){
+		alert(input2.toLowerCase());
+	}
+
+	
+	
+}
+console.log(login);
+	
+
+
 
 
